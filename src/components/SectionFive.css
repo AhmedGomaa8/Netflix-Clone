@@ -1,0 +1,42 @@
+.section-five {
+  padding: 70px 45px;
+  border-bottom: 8px solid #222;
+}
+.accordion {
+  margin-bottom: 60px;
+}
+.section-five .accordion-item {
+  background-color: #303030;
+  color: #fff;
+  font-size: 30px;
+  border: none;
+  max-width: 815px;
+  margin: auto;
+}
+.section-five .accordion-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.section-five .accordion-item h2 {
+  border: none;
+}
+.section-five .accordion-item h2 button {
+  background-color: #303030;
+  color: #fff;
+  font-size: 30px;
+  border: none;
+}
+.section-five .accordion-item h2 .accordion-button::after {
+  color: #fff !important;
+  font-size: 30px;
+}
+@media (max-width: 767px) {
+  .section-five {
+    padding: 50px 20px;
+  }
+  .section-five .accordion-item {
+    font-size: 20px;
+  }
+  .section-five .accordion-item h2 button {
+    font-size: 20px;
+  }
+}

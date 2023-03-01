@@ -1,0 +1,118 @@
+.section-two {
+  padding: 70px 45px;
+  border-bottom: 8px solid #222;
+}
+.section-two .content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.section-two .download-img {
+  width: 45%;
+  position: relative;
+}
+.section-two .download-img .downloading {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 12px;
+  border: 2px solid #ffffff40;
+  border-radius: 12px;
+  background-color: #000;
+  box-shadow: 0 0 32px 0 #000;
+}
+.section-two .download-img .downloading img {
+  width: 50px;
+  margin-right: 15px;
+}
+.section-two .download-img .downloading .downloading-text {
+  width: 220px;
+}
+.section-two .download-img .downloading i {
+  text-align: center;
+  cursor: pointer;
+}
+
+.section-two .download-img .downloading .downloading-text span {
+  display: block;
+}
+.section-two .download-img .downloading .downloading-text span:nth-child(1) {
+  font-weight: 600;
+}
+.section-two .download-img .downloading .downloading-text span:nth-child(2) {
+  color: #0071eb;
+  font-size: 15px;
+}
+
+.section-two .download-img > img {
+  width: 100%;
+}
+.section-two .download-text {
+  width: 48%;
+}
+.section-two .download-text h1 {
+  font-size: 50px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.section-two .download-text p {
+  font-size: 25px;
+}
+@media (max-width: 991px) {
+  .section-two .download-img {
+    width: 100%;
+    order: 2;
+  }
+  .section-two .download-text {
+    width: 100%;
+    order: 1;
+    text-align: center;
+  }
+  .section-two .download-img .downloading {
+    bottom: 60px;
+  }
+  .section-two .download-text h1 {
+    font-size: 38px;
+  }
+  .section-two .download-text p {
+    font-size: 20px;
+  }
+  .section-two .download-img .downloading .downloading-text {
+    width: 270px;
+  }
+}
+@media (max-width: 767px) {
+  .section-two {
+    padding: 50px 20px;
+    border-bottom: 8px solid #222;
+  }
+  .section-two .download-text h1 {
+    font-size: 26px;
+  }
+  .section-two .download-text p {
+    font-size: 17px;
+  }
+  .section-two .download-img .downloading {
+    padding: 4px 10px;
+    bottom: 18px;
+  }
+  .section-two .download-img .downloading img {
+    width: 26px;
+  }
+  .section-two .download-img .downloading .downloading-text {
+    width: 146px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-two .download-img .downloading {
+    bottom: 10px;
+  }
+  .section-two .download-img .downloading .downloading-text {
+    width: 150px;
+  }
+}

@@ -1,0 +1,35 @@
+.footer {
+  padding: 70px 45px 0;
+  margin: 0 144px;
+}
+
+.footer .row .footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .row .footer-links ul a {
+  color: #737373;
+  text-decoration: none;
+  font-size: 13px;
+  width: fit-content;
+}
+.footer .row .footer-links ul a:hover {
+  text-decoration: underline;
+}
+.footer .row > a {
+  color: #737373;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.footer .row > a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 767px) {
+  .footer {
+    padding: 50px 20px 0;
+    margin: 0 30px;
+  }
+}
