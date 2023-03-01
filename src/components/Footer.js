@@ -1,5 +1,5 @@
 import "./Footer.css";
-
+import Lang from "./Lang.js";
 function Footer() {
   return (
     <div className="footer">
@@ -75,6 +75,8 @@ function Footer() {
               </ul>
             </div>
           </div>
+          <Lang />
+          <p className="region">Netflix Egypt</p>
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@ import SignUp from "./SignUp";
 function SectionFive() {
   return (
     <div className="section-five">
+      <h1>Frequently Asked Questions</h1>
       <div className="accordion accordion-flush " id="accordionFlushExample">
         <div className="accordion-item">
           <h2 className="accordion-header" id="flush-headingOne">
